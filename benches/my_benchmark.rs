@@ -11,7 +11,7 @@ use imageproc::{
 };
 use rusttype::{Font, Scale};
 
-use yuv::*;
+use yuvimg::*;
 
 fn draw_box<T: GenericImage>(
     img: &mut T,
